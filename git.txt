@@ -1,0 +1,15 @@
+1.初始化项目
+
+git init  
+
+2.添加所有项目到仓库暂缓区
+git add .
+
+3.提交项目到本地仓库
+git commit -m '初始化项目'
+
+4.远程仓库和本地仓库关联
+git remote add origin https://github.com/lwj0310/LearnMiniProgram.git
+
+5.本地代码 提交到远程仓库
+git push -u origin master
